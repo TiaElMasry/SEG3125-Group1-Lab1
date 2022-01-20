@@ -9,29 +9,23 @@ html {
    
   body {
     background-color: powderblue;
-    width: 600px;
+    width: auto;
     border: 2px solid black;
-    padding: 0px 20px 20px 20px;
-    
+    padding: 30px;
   }
   
   h1 {
       font-size: 60px;
       text-align: center;
-      margin: 0;
-      padding: 20px 0;
+      margin: 15px;
+      padding: 20px 20px;
       color: #ff00ff;  /* Fuchsia */
       text-shadow: 3px 3px 1px black;
   }
-  
-  img {
-    display: block;
-    margin: 0 auto;
-    align: center;
-  }
-  
-  p {
-    color: red;
+
+  h2 {
+      font-size: 25px;
+      margin: 0px 0px 20px;
   }
   
   table {
@@ -48,15 +42,50 @@ html {
   }
   
   /* Defining styling for a specific element type - large block buttons */
-  .block {
+  .btn-large {
     display: block;
-    width: 100%;
+    width: 95%;
     border: none;
     background-color: #ffff66;  /* yellow */
+    color: black;
     padding: 14px 28px;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: bold;
     cursor: pointer;
     text-align: center;
+    box-shadow: 10px 10px 3px black;
+  }
+
+  a.btn {
+    text-decoration: none;
+  }
+
+  .input-area {
+    width: auto;
+    padding: 20px;
+    background-color: gray;
+    color: black;
+  }
+
+  .input-fields {
+      margin: 10px 10px;
+      font-size: 16px;
+  }
+
+  .smooth {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 25px;
+  }
+
+  .center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .center img {
+      display: inline-block;
   }
   
   /* Defining styling for a specific element with an id */
