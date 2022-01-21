@@ -8,7 +8,7 @@ html {
   }
    
   body {
-    background-color: powderblue;
+    background-color: rgb(203, 199, 240);
     width: auto;
     border: 2px solid black;
     padding: 30px;
@@ -19,8 +19,8 @@ html {
       text-align: center;
       margin: 15px;
       padding: 20px 20px;
-      color: #ff00ff;  /* Fuchsia */
-      text-shadow: 3px 3px 1px black;
+      color: black;
+      /* text-shadow: 3px 3px 1px black; */
   }
 
   h2 {
@@ -44,16 +44,16 @@ html {
   /* Defining styling for a specific element type - large block buttons */
   .btn-large {
     display: block;
-    width: 95%;
+    width: fit-content;
     border: none;
-    background-color: #ffff66;  /* yellow */
+    background-color: #9392e0;  /* yellow */
     color: black;
     padding: 14px 28px;
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
-    box-shadow: 10px 10px 3px black;
+    /* box-shadow: 10px 10px 3px black; */
   }
 
   a.btn {
@@ -63,7 +63,7 @@ html {
   .input-area {
     width: auto;
     padding: 20px;
-    background-color: gray;
+    background-color: rgb(211, 207, 207);
     color: black;
   }
 
