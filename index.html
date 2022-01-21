@@ -9,12 +9,13 @@
   </head>
   
   <body class="smooth">
-	<h1>Personality Survey</h1>
+	<h1>Survey</h1>
 	<form id="myform" action="index.php" >
 	<br>
 	<br>
 	<! Choose a website to evaluate >
-	<h2>What's you opinion on the <a href="https://uottawa.brightspace.com/d2l/home/275920">Brightspace</a> user interface?</h2>	
+	<h3><i>This is a terribly ugly page... please modify it!</i></h3>
+	<h2>What do you think of the UI in this <a href="http://Provigo.ca">Provigo</a> site?</h2>	
 	<br>
 	<br>
 	<! You should make your image clickable>
@@ -44,7 +45,14 @@
             <input type="checkbox" name="Age" value="18 - 65">18 - 65<br>
             <input type="checkbox" name="Age" value="above 65">above 65<br>
         </div>
-		
+		The Color that describe you the most?
+        <div class="input-fields">
+            <input type="checkbox" name="Color" value="Red">Red<br>
+            <input type="checkbox" name="Color" value="Blue">Blue<br>
+            <input type="checkbox" name="Color" value="Black">Black<br>
+	    <input type="checkbox" name="Color" value="Green">Green<br>
+	    <input type="checkbox" name="Color" value="Yellow">Yellow<br>
+        </div>
 		<br>
 		
 		What is your favorite vegtable?<br>
@@ -59,6 +67,15 @@
                 <option value="Other">Other</option>
             </select>
         </div>
+		What is your favorite pet?<br>
+        <div class="input-fields">
+            <select id="favorite">
+                <option value="Dog" selected="selected">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Rabit">Rabit</option>
+                <option value="Fish">Fish</option>
+            </select>
+	</div>
 
         Which continent do you live?<br>
         <div class="input-fields">
@@ -80,6 +97,11 @@
 	
     <div class="input-area smooth">
         <h2>Additional Input</h2>
+	    
+	Describe Yourself in few sentences <br>
+	<div class="input-fields">
+            <textarea rows="5" cols="30" placeholder="Answer"></textarea>
+        </div>
 
         <div class="input-fields">
             <textarea rows="5" cols="30" placeholder="Comments or concerns"></textarea>
