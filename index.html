@@ -9,7 +9,7 @@
   </head>
   
   <body class="smooth">
-	<h1>Personality Survey</h1>
+	<h1>User Interface Survey</h1>
 	<form id="myform" action="index.php" >
 	<br>
 	<br>
@@ -34,28 +34,39 @@
             <p>First name: <input type="text" name="firstname" placeholder="John"></p>
             <p>Last name: <input type="text" name="lastname" placeholder="Doe"></p>
         </div>
-		Describe Yourself in few sentences <br>
-	<div class="input-fields">
-            <textarea rows="5" cols="30" placeholder="Answer"></textarea>
-        </div>
+		Describe Yourself in few sentences: <br>
+        <div class="input-fields">
+                <textarea rows="5" cols="30" placeholder="Answer"></textarea>
+            </div>
 	</div>	
 		
 	<div class="input-area smooth">
-		<h2>Questionnaire</h2>
+		<h2>Usability Questionnaire</h2>
 
-		How old are you?
+		What are your favorite elements about the user interface?<br>
         <div class="input-fields">
-            <input type="checkbox" name="Age" value="under 18">under 18<br>
-            <input type="checkbox" name="Age" value="18 - 65">18 - 65<br>
-            <input type="checkbox" name="Age" value="above 65">above 65<br>
+                <input type="checkbox" name="elements" value="Organization of Information">Organization of Information<br>
+                <input type="checkbox" name="elements" value="Input Controls">Input Controls<br>
+                <input type="checkbox" name="elements" value="Animations">Animations<br>
+                <input type="checkbox" name="elements" value="Navigation through the site">Navigation through the site<br>
+                <input type="checkbox" name="elements" value="Visual Clarity and Language Clarity">Visual Clarity and Language Clarity<br>
+                <input type="checkbox" name="elements" value="Other">Other<br>
+            </select>
         </div>
-		The Color that describe you the most?
+
+        What are some inefficiencies with the website design? <br>
         <div class="input-fields">
-            <input type="checkbox" name="Color" value="Red">Red<br>
-            <input type="checkbox" name="Color" value="Blue">Blue<br>
-            <input type="checkbox" name="Color" value="Black">Black<br>
-	    <input type="checkbox" name="Color" value="Green">Green<br>
-	    <input type="checkbox" name="Color" value="Yellow">Yellow<br>
+            <p><input type="text" placeholder="Answer"></p>
+        </div>
+
+		<p>Considering your knowledge about user interface's how likely are you to recommend this to a friend?</p> 
+
+        <div class="input-fields">
+            <input type="radio" name="recommendationProbability" value="Very likely">Very likely<br>
+            <input type="radio" name="recommendationProbability" value="Likely">Likely<br>
+            <input type="radio" name="recommendationProbability" value="Neutral">Neutral<br>
+	    <input type="radio" name="recommendationProbability" value="Unlikely">Unlikely<br>
+	    <input type="radio" name="recommendationProbability" value="Very unlikely">Very unlikely<br>
         </div>
 		<br>
 		
