@@ -10,7 +10,6 @@
   
   <body class="smooth">
 	<h1>User Interface Survey</h1>
-	<form id="myform" action="index.php" >
 	<br>
 	<br>
 	<! Choose a website to evaluate >
@@ -22,22 +21,22 @@
     
 	<a href="https://www.art.yale.edu/">
         <img id="main-image" class="smooth" src="images/yaleart.jpg" alt="Yale School of Art">
-
     </a>
+
 	<br>
 	<br>
     
 	<div class="input-area smooth">
         <h2>Personal Information</h2>
-
         <div class="input-fields">
             <p>First name: <input type="text" name="firstname" placeholder="John"></p>
             <p>Last name: <input type="text" name="lastname" placeholder="Doe"></p>
         </div>
+
 		What is your opinion about organization of information on the screen? <br>
         <div class="input-fields">
-                <textarea rows="5" cols="30" placeholder="Answer"></textarea>
-            </div>
+            <textarea rows="5" cols="30" placeholder="Answer"></textarea>
+        </div>
 	</div>	
 		
 	<div class="input-area smooth">
@@ -45,40 +44,39 @@
 
 		What are your favorite elements about the user interface?<br>
         <div class="input-fields">
-                <input type="checkbox" name="elements" value="Organization of Information">Organization of Information<br>
-                <input type="checkbox" name="elements" value="Input Controls">Input Controls<br>
-                <input type="checkbox" name="elements" value="Animations">Animations<br>
-                <input type="checkbox" name="elements" value="Navigation through the site">Navigation through the site<br>
-                <input type="checkbox" name="elements" value="Visual Clarity and Language Clarity">Visual Clarity and Language Clarity<br>
-                <input type="checkbox" name="elements" value="Other">Other<br>
-            </select>
+            <input type="checkbox" name="elements" value="Organization of Information">Organization of Information<br>
+            <input type="checkbox" name="elements" value="Input Controls">Input Controls<br>
+            <input type="checkbox" name="elements" value="Animations">Animations<br>
+            <input type="checkbox" name="elements" value="Navigation through the site">Navigation through the site<br>
+            <input type="checkbox" name="elements" value="Visual Clarity and Language Clarity">Visual Clarity and Language Clarity<br>
+            <input type="checkbox" name="elements" value="Other">Other<br>
         </div>
 
-        What are some inefficiencies with the website design? <br>
+        What are some inefficiencies with the website design?<br>
         <div class="input-fields">
-            <p><input type="text" placeholder="Answer"></p>
+            <textarea rows="3" cols="30" placeholder="Answer"></textarea>
         </div>
 
-		<p>Considering your knowledge about user interface's how likely are you to recommend this to a friend?</p> 
-
+		Considering your knowledge about user interfaces how likely are you to recommend the page to a friend?<br> 
         <div class="input-fields">
             <input type="radio" name="recommendationProbability" value="Very likely">Very likely<br>
             <input type="radio" name="recommendationProbability" value="Likely">Likely<br>
             <input type="radio" name="recommendationProbability" value="Neutral">Neutral<br>
-	    <input type="radio" name="recommendationProbability" value="Unlikely">Unlikely<br>
-	    <input type="radio" name="recommendationProbability" value="Very unlikely">Very unlikely<br>
+	        <input type="radio" name="recommendationProbability" value="Unlikely">Unlikely<br>
+	        <input type="radio" name="recommendationProbability" value="Very unlikely">Very unlikely<br>
         </div>
-		<br>
 		
-		What can we improve on our web page?<br>
+		What aspects of the website could be improved?<br>
         <div class="input-fields">
             <select id="favorite">
-                <option value="Background" selected="selected">Background</option>
-                <option value="fonts and background colors">fonts and background colors</option>
+                <option value="Colour scheme" selected="selected">Background</option>
+                <option value="Fonts">Fonts</option>
+                <option value="Layout">Layout</option>
                 <option value="The user interface in general">The user interface in general</option>
             </select>
         </div>
-		 How difficult is reading characters on the screen?<br>
+
+		How difficult is reading the text on the website?<br>
         <div class="input-fields">
             <select id="favorite">
                 <option value="Not at all difficult" selected="selected">Not at all difficult</option>
@@ -87,26 +85,15 @@
                 <option value="Very difficult">Very difficult</option>
             </select>
 	    </div>
-
-         What are some inefficiencies with the website design?<br>
-         <div class="input-fields">
-            <p><input type="text" placeholder="Answer"></p>
-        </div>
         
-
-        How much do you like user interface?<br>
+        How much do you like user interfaces?<br>
         <div class="input-fields">
             Not at all <input type="range"> A lot
         </div>
-
-        
 	</div>
 
-    
-	
     <div class="input-area smooth">
         <h2>Additional Input</h2>  
-
         <div class="input-fields">
             <textarea rows="5" cols="30" placeholder="Comments or concerns"></textarea>
         </div>
@@ -119,8 +106,6 @@
         Submit your questionnaire
     </a>
 		
-	<p id="signature">Site created by Group 1 </p>	
-	
-	</form>
+	<p id="signature">Site created by Group 1 </p>
   </body>
 </html> 
